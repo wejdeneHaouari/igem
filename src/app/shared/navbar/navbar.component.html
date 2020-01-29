@@ -1,0 +1,76 @@
+<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
+  <div class="container">
+    <a class="navbar-brand mr-lg-5" [routerLink]="['/home']">
+      <img src="./assets/img/brand/argon-white.png">
+    </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand">
+            <a [routerLink]="['/home']">
+              <img src="./assets/img/brand/argon-white.png">
+            </a>
+          </div>
+          <div class="col-6 collapse-close">
+            <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
+                  [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav navbar-nav-hover">
+
+        <li class="nav-item ">
+          <a class="nav-link " [routerLink]="['/landing']" [fragment]="'why-us'" role="button">
+
+            <span class="">Who are we?</span>
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link no-caret " [routerLink]="['/landing']" [fragment]="'what_is_igem'" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">What is IGEM?</span>
+          </a>
+        </li>
+          <li class="nav-item ">
+              <a class="nav-link no-caret " [routerLink]="['/landing']" [fragment]="'igem-competion'"  role="button">
+                  <i class="ni ni-collection d-lg-none"></i>
+                  <span class="nav-link-inner--text">IGEM Competition</span>
+              </a>
+          </li>
+
+        <li class="nav-item ">
+          <a class="nav-link no-caret " [routerLink]="['/landing']" [fragment]="'project'"  role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Our project</span>
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link no-caret " [routerLink]="['/landing']" [fragment]="'time_line'"  role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Time line</span>
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link no-caret " [routerLink]="['/landing']" [fragment]="'whay_us'"  role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Why us?</span>
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link  " [routerLink]="['/landing']" [fragment]="'team'"  role="button">
+
+            <span class="nav-link-inner--text">Meet the team</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
