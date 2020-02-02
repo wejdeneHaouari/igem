@@ -4,9 +4,30 @@ p {
 	font-size: $paragraph-font-size;
 	font-weight: $paragraph-font-weight;
 	line-height: $paragraph-line-height;
-} 
+	font-family: $font-family-igem;
+}
+
+h1{
+	font-family: $font-family-igem;
+}
+h2{
+	font-family: $font-family-igem;
+}
+h3{
+	font-family: $font-family-igem;
+}
+h4{
+	font-family: $font-family-igem;
+}
+h5{
+	font-family: $font-family-igem;
+}
+h6{
+	font-family: $font-family-igem;
+}
 
 .lead {
+	font-family: $font-family-igem;
 	font-size: $lead-font-size;
   	font-weight: $lead-font-weight;
 	line-height: $paragraph-line-height;
@@ -18,12 +39,14 @@ p {
 }
 
 .description {
+	font-family: $font-family-igem;;
 	font-size: $font-size-sm;
 }
 
 // Headings
 
 .heading {
+	font-family: $font-family-igem;
 	letter-spacing: $heading-letter-spacing;
 	font-size: $heading-font-size;
 	text-transform: $heading-text-transform;
@@ -31,6 +54,7 @@ p {
 }
 
 .heading-title {
+	font-family: $font-family-igem;
 	letter-spacing: $heading-title-letter-spacing;
 	font-size: $heading-title-font-size;
 	font-weight: $heading-title-font-weight;
@@ -38,6 +62,7 @@ p {
 }
 
 .heading-section {
+	font-family: $font-family-igem;
 	letter-spacing: $heading-section-letter-spacing;
 	font-size: $heading-section-font-size;
 	font-weight: $heading-section-font-weight;
@@ -65,6 +90,7 @@ p {
 .display-3,
 .display-4 {
 	span {
+		font-family: $font-family-igem;
 		display: block;
 		font-weight: $font-weight-light;
 	}
@@ -80,6 +106,7 @@ article {
 	}
 
 	h4, h5 {
+
 		margin-bottom: 1.5rem;
 	}
 

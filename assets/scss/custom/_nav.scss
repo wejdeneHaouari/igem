@@ -11,7 +11,18 @@
     }
 }
 
-// Pills 
+// Pills
+
+.nav-text-dark {
+    color: #262f34;
+    font-size: 2vmin;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+}
 
 .nav-pills {
     .nav-item:not(:last-child) {

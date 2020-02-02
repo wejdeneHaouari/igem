@@ -41,6 +41,14 @@
 
 .text-white { color: $white !important; }
 
+.text-igem {
+  color: #262f34;
+  font-size: 3vmin;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+}
+
 @each $color, $value in $theme-colors {
   @include text-emphasis-variant(".text-#{$color}", $value);
 }
